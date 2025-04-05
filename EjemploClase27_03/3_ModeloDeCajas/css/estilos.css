@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#caja1, #caja2, #caja3, #caja4 {
+  width: 200px;
+  height: 200px;
+  padding-top: 65px;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 50px;
+}
+
+#caja1 {
+  background-color: #BB4430;
+  /*float:left;*/
+  margin-left: 200px;
+}
+
+#caja2 {
+  background-color: #7EBDC2;
+  float: left;
+}
+
+#caja3 {
+  background-color: #F3DFA2;
+  float: left;
+}
+
+#caja4 {
+  background-color: #EFE6DD;
+  float: left;
+}
+

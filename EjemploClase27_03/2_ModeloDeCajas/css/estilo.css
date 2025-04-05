@@ -1,0 +1,18 @@
+#uno{ background-color: #FFEB3B;}
+#dos{ background-color: #9E9E9E;}
+#tres{ background-color: #FFCDD2;}
+#cuatro{ background-color: #FF5252;}
+
+
+#uno, #dos, #tres, #cuatro{
+  width:100px;
+  height:100px;
+  box-sizing:border-box;
+  padding-top:20px;
+  border: 1px solid #333;
+}
+body{
+  font-family: arial;
+  font-size: 3em;
+  text-align: center;
+}
