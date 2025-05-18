@@ -1,0 +1,35 @@
+import { useState } from "react"
+import type { MenuItem, OrderItem } from "../types"
+
+export default function useOrder() {
+    const[order, setOrder] = useState<OrderItem[]>([]) //se usa un generic type paar este type mas complejo
+    const[tip, setTip] = useState(0) //la voy a tratar distinto de order para mostrar otras alternativas
+
+    const addItem = (item : MenuItem) => {
+
+        const itemExist = order.find(orderItem => orderItem.id === item.id)
+        if (itemExist) {
+            //console.log('ya existe')
+            //voy a sacar el id del que existe y lo haré con un ternario
+            const updateOrder = order.map(orderItem => orderItem.id === item.id ? 
+                {...orderItem, quantity: orderItem.quantity +1} : orderItem )
+            setOrder(updateOrder)
+        }else{
+            const newItem = {...item, quantity: 1}
+            setOrder([...order, newItem])
+        }           
+    }
+
+    const removeItem = (id: MenuItem['id']) => {
+        //console.log('Eliminando...', id)
+        setOrder(order.filter( item => item.id !== id))
+    }
+    console.log(order) //mostrar como se repite si solo selecciono 1 menú
+    return{
+        order,
+        tip,
+        setTip,
+        addItem,
+        removeItem,
+    }
+}
