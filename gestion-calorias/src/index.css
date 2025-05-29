@@ -1,0 +1,190 @@
+.space-y-5 {
+  margin-top: calc(1.25rem * calc(1 - 0));
+  margin-bottom: calc(1.25rem * 0);
+}
+
+.mibgColor {
+  background-color: rgb(199, 210, 254);
+}
+
+.p-10 {
+  padding: 2.5rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.font-bold {
+  margin-top: 3%;
+  font-weight: 700;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.miBorderColor {
+  border-color: rgb(196, 181, 253);
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.mibgviolet {
+  background-color: rgb(237, 233, 254);
+}
+
+.hoverBorderColor {
+  border-color: rgb(124, 58, 237);
+}
+
+.bntSubmit {
+  width: 100%;
+  cursor: pointer;
+  background-color: rgb(46, 16, 101);
+  padding: 0.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgb(196, 181, 253);
+}
+
+.py-3 {
+  color: rgb(255, 255, 255);
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.fondoTitulo {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  max-width: 56rem;
+  justify-content: space-between;
+}
+
+.tituloApp {
+  text-align: center;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: rgb(125, 11, 246);
+}
+
+.paraSection {
+  background-color: rgb(129, 140, 248);
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 5rem;
+  /*padding-bottom: 1rem;*/
+}
+
+.paraDivSection {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 56rem;
+}
+
+.paraH2 {
+  text-align: center;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 500;
+  color: rgb(71, 85, 105);
+}
+
+.parapdeH2 {
+  text-align: center;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  color: rgb(71, 85, 105);
+}
+
+.paraMap {
+  margin-top: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.div1 {
+  position: relative;
+  margin-top: calc(0.5rem * calc(1 - 0));
+  margin-bottom: calc(0.5rem * 0);
+}
+
+.div1p2 {
+  padding-top: 1.25rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.div1p3 {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 900;
+  color: rgb(165, 180, 252);
+}
+
+.color1 {
+  background-color: rgb(62, 242, 125);
+}
+
+.color2 {
+  background-color: rgb(138, 39, 231);
+}
+
+.pos {
+  position: absolute;
+  left: -2rem;
+  top: -2rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+
+.pdeTrucker {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 1.75rem;
+  border-radius: 9999px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.55rem;
+  color: rgb(255, 255, 255);
+}
+
+.divTrucker {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
